@@ -1,2 +1,2 @@
-let box = document.querySelector(".box");
+let box = document.createElement("div");
 box.setAttribute("style", "width: 50px; height: 50px; background-color: green;");
