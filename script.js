@@ -4,8 +4,9 @@ box.setAttribute("style", "width: 50px; height: 50px;border-style: solid; border
 
 let container = document.querySelector(".container");
 
-let list = document.createElement("ul");
+let unorderedlist = document.createElement("ul");
 
+let 
 
 
 for (let i = 1; i <= 256; i++){
