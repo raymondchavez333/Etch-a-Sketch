@@ -3,5 +3,5 @@
     height: 500px;
     display: flex;
     flex-wrap: wrap;
-
+    flex-shrink: 1;
 }
