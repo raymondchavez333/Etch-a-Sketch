@@ -12,9 +12,9 @@ listItem.appendChild(box);
 
 for (let i = 1; i <= 256; i++){
     
-
     unorderedlist.appendChild(listItem);
 }
 
+container.appendChild(listItem);
 
 
