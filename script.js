@@ -6,7 +6,7 @@ let container = document.querySelector(".container");
 
 let unorderedlist = document.createElement("ul");
 
-let 
+let listItem = document.createElement("li");
 
 
 for (let i = 1; i <= 256; i++){
