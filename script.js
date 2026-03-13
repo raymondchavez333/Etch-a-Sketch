@@ -1,11 +1,17 @@
 let box = document.createElement("div");
 box.setAttribute("class", "box");
-box.setAttribute("style", "width: 50px; height: 50px; background-color: green;");
+box.setAttribute("style", "width: 50px; height: 50px;border-style: solid; border-color: black");
 
 let container = document.querySelector(".container");
 
+let list = document.createElement("ul");
+
+
 
 for (let i = 1; i <= 256; i++){
+    
     container.appendChild(box);
 }
+
+
 
