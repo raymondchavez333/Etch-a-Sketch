@@ -4,4 +4,8 @@ box.setAttribute("style", "width: 50px; height: 50px; background-color: green;")
 
 let container = document.querySelector(".container");
 
-container.appendChild(box);
+
+for (let i = 1; i <= 256; i++){
+    container.appendChild(box);
+}
+
