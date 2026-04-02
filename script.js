@@ -2,7 +2,7 @@ for (let i = 1; i <= 256; i++){
     
     let box = document.createElement("div");
     box.setAttribute("class", "box");
-    box.setAttribute("style", "min-width: 5px; min-height: 5px; border-style: solid; border-color: black; display: flex; flex-grow: 1");
+    box.setAttribute("style", "width: 33px; height: auto; border-style: solid; border-color: black; flex-grow: 1");
 
     // width: 50px; height: 50px;
     let container = document.querySelector(".container");
