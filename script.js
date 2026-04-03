@@ -22,7 +22,7 @@ for (let i = 1; i <= 256; i++){
 let button = document.querySelector("button");
 
 button.addEventListener("click", () => {
-    let number = prompt("Enter number per side(limit until 100): ");
+    let number = Number(prompt("Enter number per side(limit until 100): "));
     
 
     let container = document.querySelector(".container");
