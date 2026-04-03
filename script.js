@@ -19,5 +19,10 @@ for (let i = 1; i <= 256; i++){
     })
 }
 
+let button = document.querySelector("button");
+
+button.addEventListener("click", () => {
+    prompt("Enter number per side(limit until 100): ");
+})
 
 
