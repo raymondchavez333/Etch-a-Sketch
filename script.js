@@ -23,7 +23,7 @@ let button = document.querySelector("button");
 
 button.addEventListener("click", () => {
     let number = prompt("Enter number per side(limit until 100): ");
-    console.log(number);
+    
 
     let container = document.querySelector(".container");
     container.remove();
