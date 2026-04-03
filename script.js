@@ -13,7 +13,7 @@ for (let i = 1; i <= 256; i++){
     const boxes = document.querySelectorAll(".box");
 
     boxes.forEach((box) =>{
-        box.addEventListener("click", () => {
+        box.addEventListener("mouseenter", () => {
             box.setAttribute("style", "width: 33px; height: auto; border-style: solid; border-color: black; flex-grow: 1; background-color: black");
         });
     })
