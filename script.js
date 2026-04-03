@@ -14,7 +14,7 @@ for (let i = 1; i <= 256; i++){
 
     boxes.forEach((box) =>{
         box.addEventListener("click", () => {
-            box.setAttribute("style", "background-color: black");
+            box.setAttribute("style", "width: 33px; height: auto; border-style: solid; border-color: black; flex-grow: 1; background-color: black");
         });
     })
 }
