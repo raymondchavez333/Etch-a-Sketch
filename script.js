@@ -9,6 +9,14 @@ for (let i = 1; i <= 256; i++){
 
 
     container.appendChild(box);
+
+    const boxes = document.querySelectorAll(".box");
+
+    boxes.forEach((box) =>{
+        box.addEventListener("click", () => {
+            box.setAttribute("style", "background-color: black");
+        });
+    })
 }
 
 
