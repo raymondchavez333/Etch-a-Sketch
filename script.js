@@ -24,6 +24,7 @@ let button = document.querySelector("button");
 button.addEventListener("click", () => {
     let number = Number(prompt("Enter number per side(limit until 100): "));
     
+    console.log(number + 5);
 
     let container = document.querySelector(".container");
     container.remove();
