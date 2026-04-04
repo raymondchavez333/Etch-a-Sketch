@@ -33,6 +33,7 @@ button.addEventListener("click", () => {
     newContainer.setAttribute("class", "container");
     newContainer.setAttribute("style", "width: 600px; height: 600px; display: flex; flex-wrap: wrap");
 
+    document.body.appendChild(newContainer);
 
     for (let i = 1; i <= number; i++){
     
