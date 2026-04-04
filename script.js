@@ -31,9 +31,11 @@ button.addEventListener("click", () => {
 
     for (let i = 1; i <= number; i++){
     
+    const newWidth = 550 / number;
+     
     let box = document.createElement("div");
     box.setAttribute("class", "box");
-    box.setAttribute("style", "width: 33px; height: auto; border-style: solid; border-color: black; flex-grow: 1");
+    box.setAttribute("style", `width: ${newWidth}px; height: auto; border-style: solid; border-color: black; flex-grow: 1`);
 
     // width: 50px; height: 50px;
     let container = document.querySelector(".container");
