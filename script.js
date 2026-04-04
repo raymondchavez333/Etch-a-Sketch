@@ -38,10 +38,11 @@ button.addEventListener("click", () => {
     box.setAttribute("style", `width: ${newWidth}px; height: auto; border-style: solid; border-color: black; flex-grow: 1`);
 
     // width: 50px; height: 50px;
-    let container = document.querySelector(".container");
+    let newContainer = document.createElement("div");
+    newContainer.classList("container");
 
 
-    container.appendChild(box);
+    newContainer.appendChild(box);
 
     const boxes = document.querySelectorAll(".box");
 
@@ -52,5 +53,7 @@ button.addEventListener("click", () => {
     })
     }
 })
+
+
 
 
