@@ -31,7 +31,7 @@ button.addEventListener("click", () => {
 
     let newContainer = document.createElement("div");
     newContainer.setAttribute("class", "container");
-    newContainer.setAttribute("style",)
+    newContainer.setAttribute("style", "width: 600px; height: 600px; display: flex; flex-wrap: wrap");
 
 
     for (let i = 1; i <= number; i++){
