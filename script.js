@@ -47,7 +47,7 @@ button.addEventListener("click", () => {
 
     boxes.forEach((box) =>{
         box.addEventListener("mouseenter", () => {
-            box.setAttribute("style", "width: 33px; height: auto; border-style: solid; border-color: black; flex-grow: 1; background-color: black");
+            box.setAttribute("style", `width: ${newWidth}px; height: auto; border-style: solid; border-color: black; flex-grow: 1; background-color: black`);
         });
     })
     }
