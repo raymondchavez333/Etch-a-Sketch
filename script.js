@@ -28,6 +28,27 @@ button.addEventListener("click", () => {
 
     let container = document.querySelector(".container");
     container.remove();
+
+    for (let i = 1; i <= number; i++){
+    
+    let box = document.createElement("div");
+    box.setAttribute("class", "box");
+    box.setAttribute("style", "width: 33px; height: auto; border-style: solid; border-color: black; flex-grow: 1");
+
+    // width: 50px; height: 50px;
+    let container = document.querySelector(".container");
+
+
+    container.appendChild(box);
+
+    const boxes = document.querySelectorAll(".box");
+
+    boxes.forEach((box) =>{
+        box.addEventListener("mouseenter", () => {
+            box.setAttribute("style", "width: 33px; height: auto; border-style: solid; border-color: black; flex-grow: 1; background-color: black");
+        });
+    })
+    }
 })
 
 
