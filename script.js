@@ -30,8 +30,10 @@ button.addEventListener("click", () => {
     container.remove();
 
     let newContainer = document.createElement("div");
-    newContainer.classList("container");
-    
+    newContainer.setAttribute("class", "container");
+    newContainer.setAttribute("style",)
+
+
     for (let i = 1; i <= number; i++){
     
     const newWidth = 550 / number;
