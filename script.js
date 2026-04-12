@@ -35,7 +35,7 @@ button.addEventListener("click", () => {
 
     document.body.appendChild(newContainer);
 
-    for (let i = 1; i <= number; i++){
+    for (let i = 1; i <= number*number; i++){
     
     let newWidth = 550 / (number*number);
      
