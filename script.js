@@ -37,7 +37,7 @@ button.addEventListener("click", () => {
 
     for (let i = 1; i <= number*number; i++){
     
-    let newWidth = 600 / (number*number) + 100;
+    let newWidth = 600 / (number);
      
     let box = document.createElement("div");
     box.setAttribute("class", "box");
