@@ -41,7 +41,7 @@ button.addEventListener("click", () => {
      
     let box = document.createElement("div");
     box.setAttribute("class", "box");
-    box.setAttribute("style", `max-width: ${newWidth}px; height: auto; border-style: solid; border-color: black; box-sizing: border-box; flex-grow: 1`);
+    box.setAttribute("style", `width: ${newWidth}px; height: auto; border-style: solid; border-color: black; box-sizing: border-box; flex-grow: 1`);
 
 
     newContainer.appendChild(box);
@@ -50,7 +50,7 @@ button.addEventListener("click", () => {
 
     boxes.forEach((box) =>{
         box.addEventListener("mouseenter", () => {
-            box.setAttribute("style", `max-width: ${newWidth}px; height: auto; border-style: solid; border-color: black; box-sizing: border-box; flex-grow: 1; background-color: black`);
+            box.setAttribute("style", `width: ${newWidth}px; height: auto; border-style: solid; border-color: black; box-sizing: border-box; flex-grow: 1; background-color: black`);
         });
     })
     }
