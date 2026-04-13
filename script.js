@@ -60,7 +60,7 @@ button.addEventListener("click", () => {
 
     boxes.forEach((box) =>{
         box.addEventListener("mouseenter", () => {
-            box.setAttribute("style", `width: ${newWidth}px; height: auto; border-style: solid; border-color: black; box-sizing: border-box; flex-grow: 1; background-color: black`);
+            box.setAttribute("style", `width: ${newWidth}px; height: auto; border-style: solid; border-color: black; box-sizing: border-box; flex-grow: 1; background-color: rgb(${randomB} ${randomG} ${randomG})`);
         });
     })
     }
