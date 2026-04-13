@@ -1,4 +1,7 @@
 for (let i = 1; i <= 256; i++){
+    let randomR = Math.floor(Math.random()* 255);
+    let randomG = Math.floor(Math.random()* 255);
+    let randomB = Math.floor(Math.random()* 255);
     
     let box = document.createElement("div");
     box.setAttribute("class", "box");
