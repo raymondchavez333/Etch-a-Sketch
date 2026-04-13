@@ -22,6 +22,12 @@ for (let i = 1; i <= 256; i++){
 let button = document.querySelector("button");
 
 button.addEventListener("click", () => {
+
+    let randomR = Math.floor(Math.random()* 255);
+    let randomG = Math.floor(Math.random()* 255);
+    let randomB = Math.floor(Math.random()* 255);
+
+
     let number = Number(prompt("Enter number per side(limit until 100): "));
     
     if (number > 100){
