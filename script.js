@@ -2,7 +2,7 @@ for (let i = 1; i <= 256; i++){
     let randomR = Math.floor(Math.random()* 255);
     let randomG = Math.floor(Math.random()* 255);
     let randomB = Math.floor(Math.random()* 255);
-    
+
     let box = document.createElement("div");
     box.setAttribute("class", "box");
     box.setAttribute("style", "width: 33px; height: auto; border-style: solid; border-color: black; flex-grow: 1");
@@ -17,7 +17,7 @@ for (let i = 1; i <= 256; i++){
 
     boxes.forEach((box) =>{
         box.addEventListener("mouseenter", () => {
-            box.setAttribute("style", "width: 33px; height: auto; border-style: solid; border-color: black; flex-grow: 1; background-color: black");
+            box.setAttribute("style", `width: 33px; height: auto; border-style: solid; border-color: black; flex-grow: 1; background-color: rgb(${randomR} ${randomG} ${randomB})`);
         });
     })
 }
