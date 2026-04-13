@@ -28,7 +28,7 @@ button.addEventListener("click", () => {
         alert("Please input until 100 only");
         return;
     }
-    console.log(number + 5);
+    
 
     let container = document.querySelector(".container");
     container.remove();
