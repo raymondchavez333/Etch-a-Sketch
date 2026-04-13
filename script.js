@@ -27,11 +27,6 @@ let button = document.querySelector("button");
 
 button.addEventListener("click", () => {
 
-    let randomR = Math.floor(Math.random()* 255);
-    let randomG = Math.floor(Math.random()* 255);
-    let randomB = Math.floor(Math.random()* 255);
-
-
     let number = Number(prompt("Enter number per side(limit until 100): "));
     
     if (number > 100){
@@ -64,6 +59,9 @@ button.addEventListener("click", () => {
 
     boxes.forEach((box) =>{
         box.addEventListener("mouseenter", () => {
+            let randomR = Math.floor(Math.random()* 255);
+            let randomG = Math.floor(Math.random()* 255);
+            let randomB = Math.floor(Math.random()* 255);
             box.setAttribute("style", `width: ${newWidth}px; height: auto; border-style: solid; border-color: black; box-sizing: border-box; flex-grow: 1; background-color: rgb(${randomR} ${randomG} ${randomB})`);
         });
     })
